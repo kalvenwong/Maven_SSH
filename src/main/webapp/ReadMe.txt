@@ -1,0 +1,3 @@
+基于SSH搭建的登录演示...
+用Maven搭建,不过jar是手动导入,如果想从maven远程下载,可以在pom.xml文件中的<dependencies>中
+加入相关的依赖jar包(如SSH核心包等,可从www.mvnrepository.com这个网址查看相关依赖包的名称),idea即可自动从远程下载jar到项目中

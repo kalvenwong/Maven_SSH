@@ -1,0 +1,21 @@
+<!--
+**********************************hibernate配置写在spring配置文件里面************************************************
+<?xml version='1.0' encoding='utf-8'?>-->
+<!--<!DOCTYPE hibernate-configuration PUBLIC-->
+    <!--"-//Hibernate/Hibernate Configuration DTD//EN"-->
+    <!--"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
+<!--<hibernate-configuration>-->
+  <!--<session-factory>-->
+      <!--&lt;!&ndash;设置数据库的连接url:jdbc:mysql://localhost/hibernate,其中localhost表示mysql服务器名称，此处为本机，    hibernate是数据库名&ndash;&gt;-->
+      <!--&lt;!&ndash;<property name="connection.url">jdbc:mysql://localhost:3306/test</property>&ndash;&gt;-->
+      <!--&lt;!&ndash;&lt;!&ndash;配置数据库的驱动程序，Hibernate在连接数据库时，需要用到数据库的驱动程序&ndash;&gt;&ndash;&gt;-->
+      <!--&lt;!&ndash;<property name="connection.driver_class">com.mysql.jdbc.Driver</property>&ndash;&gt;-->
+      <!--&lt;!&ndash;&lt;!&ndash;hibernate.dialect 只是Hibernate使用的数据库方言,就是要用Hibernate连接那种类型的数据库服务器。&ndash;&gt;&ndash;&gt;-->
+      <!--&lt;!&ndash;<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect </property>&ndash;&gt;-->
+
+      <!--&lt;!&ndash;<mapping resource="MessageEntity.hbm.xml"/>&ndash;&gt;-->
+      <!--&lt;!&ndash;<mapping resource="UserEntity.hbm.xml"/>&ndash;&gt;-->
+      <!--&lt;!&ndash; DB schema will be updated if needed &ndash;&gt;-->
+    <!--&lt;!&ndash; <property name="hbm2ddl.auto">update</property> &ndash;&gt;-->
+  <!--</session-factory>-->
+<!--</hibernate-configuration>-->
